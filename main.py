@@ -1,11 +1,12 @@
-import sys  
+import sys
+import os
 import pygame  
 import random  
 from settings import screen, white, screen_width, screen_height, SOUND_MENU, music_volume  
 from objects import draw_objects  
 import game_platform  
 from player import Player  
-
+print(os.getcwd())
 pygame.init()
 
 def log_debug(text):
